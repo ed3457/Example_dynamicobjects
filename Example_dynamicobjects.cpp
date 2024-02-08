@@ -27,6 +27,17 @@ int main()
 	for (int i = 0; i < size2; i++)
 		setOfWheels2[i] = new Wheel();
 
+	
+
+
+	// change wheels 2 and 3 to a super wheel
+
+	delete setOfWheels2[2];
+	setOfWheels2[2] = new SuperWheel();
+
+	//delete setOfWheels2[3];
+	//setOfWheels2[3] = new SuperWheel();
+
 	for (int i = 0; i < size2; i++)
 		setOfWheels2[i]->printType();
 

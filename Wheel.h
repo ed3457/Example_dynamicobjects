@@ -14,7 +14,7 @@ public:
 	Wheel();
 
 	Wheel(float d);
-	void printType();
+	virtual void printType();// virtual enables runtime binding
 
 
 };
